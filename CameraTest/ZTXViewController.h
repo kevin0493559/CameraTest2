@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZTXViewController : UIViewController
+@interface ZTXViewController : UIViewController<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
