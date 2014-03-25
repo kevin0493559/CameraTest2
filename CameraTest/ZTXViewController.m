@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -38,7 +39,7 @@
     
 }
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
-    NSLog(@"Action Sheet Button Index: %d",buttonIndex);
+   // NSLog(@"Action Sheet Button Index: %d",buttonIndex);
     if (buttonIndex == 0) {
         //Show Photo Library
         @try {
